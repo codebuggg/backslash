@@ -5,10 +5,10 @@
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Work</h2>
         <p class="mt-2 text-lg leading-8 text-gray-600">Learn how to grow your business with our expert advice.</p>
         <div class= "flex justify-evenly pt-8 py-2">
-          <button :class="{'btn-active': activeFilter === 'all'}" @click="setActiveFilter('all')" class="px-6 py-2 rounded-full hover:bg-blue-950 hover:text-white"> All </button>
-          <button :class="{'btn-active': activeFilter === 'all'}" @click="setActiveFilter('web')" class="px-6 rounded-full hover:bg-blue-950 hover:text-white"> Web Design </button>
-          <button :class="{'btn-active': activeFilter === 'all'}" @click="setActiveFilter('mobile')" class="px-6 rounded-full hover:bg-blue-950 hover:text-white"> Mobile Design </button>
-          <button :class="{'btn-active': activeFilter === 'all'}" @click="setActiveFilter('uiux')" class="px-6 rounded-full hover:bg-blue-950 hover:text-white"> UI/UX </button>
+          <button :class="{'bg-blue-950 text-white': activeFilter === 'all'}" @click="setActiveFilter('all')" class="px-6 py-2 rounded-full hover:bg-blue-950 hover:text-white"> All </button>
+          <button :class="{'bg-blue-950 text-white': activeFilter === 'web'}" @click="setActiveFilter('web')" class="px-6 rounded-full hover:bg-blue-950 hover:text-white"> Web Design </button>
+          <button :class="{'bg-blue-950 text-white': activeFilter === 'mobile'}" @click="setActiveFilter('mobile')" class="px-6 rounded-full hover:bg-blue-950 hover:text-white"> Mobile Design </button>
+          <button :class="{'bg-blue-950 text-white': activeFilter === 'uiux'}" @click="setActiveFilter('uiux')" class="px-6 rounded-full hover:bg-blue-950 hover:text-white"> UI/UX </button>
         </div>
 
       </div>

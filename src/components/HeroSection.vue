@@ -66,7 +66,7 @@
           <div class="overflow-hidden">
             <div class="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
               <div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-                <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl px-8 text-justify">
+                <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl px-8 xl:text-justify">
                   <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Connecting the dots ...</h1>
                   <p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">From Concept to Seamless Reality: We're on a mission to revolutionize connections through pioneering and redefining how people connect with cutting-edge solutions. Our innovative approach builds bridges that empower individuals and businesses to thrive in a digitally transformed world.</p>
                   <div class="mt-10 flex items-center gap-x-6">
